@@ -1,3 +1,5 @@
+"use client"
+
 import { useState } from 'react';
 import { GlobeViewer } from './components/GlobeViewer';
 import { CountrySelector } from './components/CountrySelector';
