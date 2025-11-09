@@ -1,36 +1,140 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# 🌍 Country Compare — *When Worlds Collide*
 
-First, run the development server:
+**Great Uni Hack 2025 Project**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+> *Explore. Compare. Combine.*
+> Discover what happens when two countries — and their worlds — collide.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🧠 Theme: *Worlds Colliding*
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This year’s Great Uni Hack theme invited teams to imagine what happens when different worlds meet — across culture, data, and technology.
+**Country Compare** brings that idea to life by literally colliding *countries*: combining their data, culture, and identity to create new, imagined nations.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🚀 What It Does
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Country Compare** is an interactive web platform where users can explore, compare, and creatively merge two countries.
+Using real-world data, AI reasoning, and cultural context, it helps you visualize what happens when nations blend — and even plan your next trip there.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🗺️ Key Features
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 🌐 Interactive Globe
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Built using **Globe.gl**, users can spin, zoom, and click directly on a 3D globe to select or search for any two countries.
+
+### 📊 Country Comparison
+
+A side-by-side, data-rich comparison of:
+
+* Population, GDP, and land area
+* Environmental impact and emissions
+* Weather, climate, and geography
+* Crime rates and Olympic wins
+
+### 💡 Combine Mode
+
+Hit **Combine Countries** to generate a new “hybrid nation”:
+
+* Fuses key statistics
+* Generates a creative, AI-written cultural profile
+* Suggests the new country’s name, identity, and combined country svg outline
+
+---
+
+## 🤖 Agentic AI Integrations
+
+### 🧳 1. Travel Agent
+
+An **Agentic AI Travel Planner** acts as your personal guide for exploring the selected countries — or their combined hybrid version.
+
+**Capabilities:**
+
+* Plans detailed itineraries with suggested destinations
+* Estimates **flight and accommodation costs**
+* Recommends **food, activities, and local experiences**
+* Uses **ElevenLabs TTS** to *speak* your travel summary aloud
+
+> 🗣️ It’s not just data — it’s a voice that helps you plan your next adventure.
+
+---
+
+### ❤️ 2. Health & Wellbeing Report
+
+A second **Agentic AI module** generates a *Health and Wellbeing Report* based on the countries selected.
+
+**Features:**
+
+* Analyzes healthcare quality, accessibility, and spending
+* Compares life expectancy, happiness index, and lifestyle factors
+* Highlights environmental health indicators (air quality, pollution, green space)
+* Creates a **persistent, saved markdown report** — so users can revisit and track comparisons over time
+
+> 🩺 It’s an intelligent wellness analyst that turns country-level data into human-level insights.
+
+---
+
+## 🧰 Tech Stack
+
+| Category          | Tools / Frameworks                              |
+| ----------------- | ----------------------------------------------- |
+| **Frontend**      | React, Globe.gl                                 |
+| **Backend**       | Node.js, Express                                |
+| **AI Agents**     | Custom Agentic AI (LLM-based reasoning)         |
+| **TTS**           | ElevenLabs API                                  |
+| **APIs**          | REST Countries, World Bank, OpenWeatherMap      |
+| **Data Storage**  | Local persistence for reports (Markdown format) |
+| **Visualization** | D3.js, Globe.gl                                 |
+| **Deployment**    | *(e.g. Vercel / Netlify / Render)*              |
+
+---
+
+## 🎨 Inspiration
+
+We asked ourselves:
+
+> “What if you could merge two countries — their cultures, data, and people — into something new?”
+
+That curiosity evolved into a global exploration tool that visualizes how *data, creativity, and AI* can collide to tell new stories about our world.
+
+---
+
+## 🧑‍💻 Team
+
+**Team Name:** *git push --force*
+
+| Role               | Member |
+| ------------------ | ------ |
+| Frontend Developer | [Name] |
+| Backend Developer  | [Name] |
+| AI / Agent Design  | [Name] |
+| Data Integration   | [Name] |
+| Design & UX        | [Name] |
+
+---
+
+## 🏆 What We Learned
+
+* Building immersive 3D visualizations with **Globe.gl**
+* Creating **agentic AI systems** that reason, plan, and persist data
+* Integrating **TTS (ElevenLabs)** for interactive, voice-driven output
+* Turning raw data into meaningful, human-readable insights
+
+---
+
+## ✨ Demo
+
+🔗 **Live Demo:** *[Add deployment link]*
+📸 **Screenshots:** *[Add image previews or GIFs]*
+🎧 **TTS Sample:** *[Link to audio demo]*
+
+---
+
+## 💬 Tagline
+
+> *“When worlds collide — new nations, voices, and ideas emerge.”*
