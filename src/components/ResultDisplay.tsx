@@ -66,11 +66,11 @@ const ResultDisplay: React.FC<ResultDisplayProps> = ({ data }) => {
     <div className="min-w-0 space-y-8">
       {/* Header */}
       <header className="rounded-2xl border border-gray-800/60 bg-gradient-to-b from-gray-900 to-gray-900/70 p-6 shadow-lg">
-        <h2 className="text-4xl md:text-5xl font-bold tracking-tight text-white">
+        <h2 className="text-4xl md:text-5xl text-center font-bold tracking-tight text-white">
           {data.name}
         </h2>
         {!!data.alt_names?.length && (
-          <p className="mt-2 text-sm text-gray-400">
+          <p className="mt-2 text-center text-sm text-gray-400">
             Also known as: {data.alt_names.join(', ')}
           </p>
         )}
