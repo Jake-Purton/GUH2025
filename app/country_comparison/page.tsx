@@ -27,6 +27,7 @@ export default function WorldComparePage({}: WorldComparePageProps) {
 
     useEffect(() => {
         getCountryData([countryA, countryB]).then(setCountries);
+        console.log(countryA, countryB);
     }, [countryA, countryB]);
 
     const renderInfoBox = (title: string, content: React.ReactNode) => (
