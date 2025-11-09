@@ -3,7 +3,8 @@ export const runtime = "nodejs";
 import * as d3geo from "d3-geo";
 import {
   loadCountries,
-  makeCountryFinder,
+  makeCountryFinderISO,
+    loadIsoToNum,
   geoFeatureToMultiPolygon,
   closeRings,
   keepLargestPolygon,
@@ -30,10 +31,14 @@ export async function GET(req: Request) {
     const fill = url.searchParams.get("fill") || "white";
     const debug = url.searchParams.get("debug") === "1";
 
+    // Example usage somewhere else:
     const features = await loadCountries();
-    const find = makeCountryFinder(features);
+    const isoToNum = await loadIsoToNum();
+    const findByISO = makeCountryFinderISO(features, isoToNum);
 
-    const fa = find(a);
+
+
+    const fa = findByISO(a);
     if (!fa) {
       return new Response(
         JSON.stringify({ error: `Country not found`, missing: { a: !fa } }),

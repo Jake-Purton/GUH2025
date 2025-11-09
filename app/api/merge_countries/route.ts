@@ -5,7 +5,8 @@ import polygonClipping from "polygon-clipping";
 import {
   MP,
   loadCountries,
-  makeCountryFinder,
+loadIsoToNum,
+  makeCountryFinderISO,
   geoFeatureToMultiPolygon,
   closeRings,
   keepLargestPolygon,
@@ -38,8 +39,11 @@ export async function GET(req: Request) {
     const debug = url.searchParams.get("debug") === "1";
 
     const features = await loadCountries();
-    const find = makeCountryFinder(features);
-    const fa = find(a);
+    const isoToNum = await loadIsoToNum();
+    const findByISO = makeCountryFinderISO(features, isoToNum);
+
+
+    const fa = findByISO(a);
     if (!fa) {
       return new Response(JSON.stringify({ error: `Country not found: ${a}` }), {
         status: 404,

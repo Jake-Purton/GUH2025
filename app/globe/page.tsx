@@ -25,6 +25,40 @@ export default function CountrySelectorGlobePage() {
     );
 }
 
+let isoMapPromise: Promise<Record<string, string>> | null = null;
+
+async function getIsoMap(): Promise<Record<string, string>> {
+  if (!isoMapPromise) {
+    isoMapPromise = (async () => {
+      const res = await fetch("/iso_mapping.json");
+      if (!res.ok) return {};
+      return (await res.json()) as Record<string, string>;
+    })();
+  }
+  return isoMapPromise;
+}
+
+/**
+ * Convert a country label to ISO-2.
+ * - If the input already looks like ISO-2, return it uppercased.
+ * - Otherwise look it up in /iso_mapping.json.
+ * - Returns null if no match.
+ */
+export async function countryNameToISO2(name: string): Promise<string | null> {
+  if (!name) return null;
+  const trimmed = name.trim();
+
+  // If it's already ISO-2, accept it
+  if (/^[A-Za-z]{2}$/.test(trimmed)) return trimmed.toUpperCase();
+
+  const mapping = await getIsoMap();
+  // Try exact, then case-insensitive
+  if (mapping[trimmed]) return String(mapping[trimmed]).toUpperCase();
+
+  const lowerKey = Object.keys(mapping).find((k) => k.toLowerCase() === trimmed.toLowerCase());
+  return lowerKey ? String(mapping[lowerKey]).toUpperCase() : null;
+}
+
 // Types
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 type Feature = any;
@@ -46,6 +80,9 @@ function CountrySelectorGlobe({
     const [search, setSearch] = useState("");
     const [matchesOpen, setMatchesOpen] = useState(false);
     const [countryData, setCountryData] = useState<any>({});
+
+    const [a, setA] = useState<string>("");
+    const [b, setB] = useState<string>("");
 
     const [height, setHeight] = useState(600); // default fallback
 
@@ -254,6 +291,22 @@ function CountrySelectorGlobe({
     const fmt = (n?: number, opts: Intl.NumberFormatOptions = {}) =>
         typeof n === "number" ? n.toLocaleString(undefined, opts) : "—";
 
+
+  useEffect(() => {
+    let mounted = true;
+    (async () => {
+      const [ra, rb] = await Promise.all([
+        countryNameToISO2(selectedNames[0]),
+        countryNameToISO2(selectedNames[1]),
+      ]);
+      if (mounted) {
+        setA(ra ?? "");
+        setB(rb ?? "");
+      }
+    })();
+    return () => { mounted = false; };
+  }, [selectedNames]);
+
     // --- UI ---
     return (
         <div style={{ display: "grid", gridTemplateColumns: "1fr 360px", gap: 12 }}>
@@ -391,7 +444,7 @@ function CountrySelectorGlobe({
 
                     {selectedNames.length == 2 && (
                         <Link
-                            href={`/country_comparison?a=${selectedNames[0]}&b=${selectedNames[1]}`}
+                            href={`/country_comparison?a=${a}&b=${b}`}
                             style={{ display: 'block' }} // make the link fill its grid cell
                             title="Compare the two selected countries"
                         >
