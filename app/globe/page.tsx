@@ -30,7 +30,7 @@ export default function CountrySelectorGlobePage() {
 type Feature = any;
 
 function CountrySelectorGlobe({
-    height = typeof window !== "undefined" ? window.innerHeight : 600,
+    // height = typeof window !== "undefined" ? window.innerHeight : 600,
     globeBackgroundColor = "#0b1020",
     geojsonUrl = "https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson",
 }: {
@@ -47,6 +47,14 @@ function CountrySelectorGlobe({
     const [matchesOpen, setMatchesOpen] = useState(false);
     const [countryData, setCountryData] = useState<any>({});
 
+    const [height, setHeight] = useState(600); // default fallback
+
+    useEffect(() => {
+        const updateHeight = () => setHeight(window.innerHeight-30);
+        updateHeight(); // set immediately
+        window.addEventListener("resize", updateHeight);
+        return () => window.removeEventListener("resize", updateHeight);
+    }, []);
 
     // --- Load country polygons (handles GeoJSON or TopoJSON) ---
     useEffect(() => {
