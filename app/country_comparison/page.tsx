@@ -542,8 +542,8 @@ export default function WorldComparePage({}: {}) {
     const [weatherData, setWeatherData] = useState<Record<string, MonthlyAverage[]>>({});
 
     const params = useSearchParams();
-    const countryA = params.get("a") ?? "Canada";
-    const countryB = params.get("b") ?? "United States";
+    const countryA = params.get("a") ?? "CN";
+    const countryB = params.get("b") ?? "US";
 
 
     const [healthLoading, setHealthLoading] = useState<Record<string, boolean>>({});
