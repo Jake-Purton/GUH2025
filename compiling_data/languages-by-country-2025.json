@@ -1,0 +1,1388 @@
+[
+  {
+    "flagCode": "VN",
+    "country": "Vietnam",
+    "LanguagesOfficialOrNationalLanguage": "Vietnamese",
+    "LanguagesMinorityLanguage": "Cantonese, Cham, Hmong, Khmer, Lao, Muong, Rade, Tay, Thai",
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "UZ",
+    "country": "Uzbekistan",
+    "LanguagesOfficialOrNationalLanguage": "Uzbek",
+    "LanguagesMinorityLanguage": "Uzbek, Karakalpak",
+    "LanguagesOtherWidelySpokenLanguages": "Russian"
+  },
+  {
+    "flagCode": "PK",
+    "country": "Pakistan",
+    "LanguagesOfficialOrNationalLanguage": "Urdu, English",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": "Punjabi, Balochi, Sindhi, Pashto"
+  },
+  {
+    "flagCode": "UA",
+    "country": "Ukraine",
+    "LanguagesOfficialOrNationalLanguage": "Ukrainian",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "TV",
+    "country": "Tuvalu",
+    "LanguagesOfficialOrNationalLanguage": "Tuvaluan, English",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "TM",
+    "country": "Turkmenistan",
+    "LanguagesOfficialOrNationalLanguage": "Turkmen",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": "Russian"
+  },
+  {
+    "flagCode": "TR",
+    "country": "Turkey",
+    "LanguagesOfficialOrNationalLanguage": "Turkish",
+    "LanguagesMinorityLanguage": "Kurdish",
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "ER",
+    "country": "Eritrea",
+    "LanguagesOfficialOrNationalLanguage": "Tigrinya",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": "Arabic, Italian"
+  },
+  {
+    "flagCode": "TH",
+    "country": "Thailand",
+    "LanguagesOfficialOrNationalLanguage": "Thai",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "EH",
+    "country": "Western Sahara",
+    "LanguagesOfficialOrNationalLanguage": "Tamazight, Arabic, Spanish",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "TJ",
+    "country": "Tajikistan",
+    "LanguagesOfficialOrNationalLanguage": "Tajik",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": "Russian"
+  },
+  {
+    "flagCode": "SE",
+    "country": "Sweden",
+    "LanguagesOfficialOrNationalLanguage": "Swedish",
+    "LanguagesMinorityLanguage": "Finnish",
+    "LanguagesOtherWidelySpokenLanguages": "English, Romani, Yiddish"
+  },
+  {
+    "flagCode": "EC",
+    "country": "Ecuador",
+    "LanguagesOfficialOrNationalLanguage": "Spanish, Quechua",
+    "LanguagesMinorityLanguage": "Kichwa, Shuar",
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "PY",
+    "country": "Paraguay",
+    "LanguagesOfficialOrNationalLanguage": "Spanish, Guaraní",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "MX",
+    "country": "Mexico",
+    "LanguagesOfficialOrNationalLanguage": "Spanish",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "CO",
+    "country": "Colombia",
+    "LanguagesOfficialOrNationalLanguage": "Spanish",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "ES",
+    "country": "Spain",
+    "LanguagesOfficialOrNationalLanguage": "Spanish",
+    "LanguagesMinorityLanguage": "Astur-Leonese, Aragonese, Fala, French, Portuguese",
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "AR",
+    "country": "Argentina",
+    "LanguagesOfficialOrNationalLanguage": "Spanish",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": "Argentine Spanish"
+  },
+  {
+    "flagCode": "VE",
+    "country": "Venezuela",
+    "LanguagesOfficialOrNationalLanguage": "Spanish",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "GT",
+    "country": "Guatemala",
+    "LanguagesOfficialOrNationalLanguage": "Spanish",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "BO",
+    "country": "Bolivia",
+    "LanguagesOfficialOrNationalLanguage": "Spanish",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "DO",
+    "country": "Dominican Republic",
+    "LanguagesOfficialOrNationalLanguage": "Spanish",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "HN",
+    "country": "Honduras",
+    "LanguagesOfficialOrNationalLanguage": "Spanish",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "CU",
+    "country": "Cuba",
+    "LanguagesOfficialOrNationalLanguage": "Spanish",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "NI",
+    "country": "Nicaragua",
+    "LanguagesOfficialOrNationalLanguage": "Spanish",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "SV",
+    "country": "El Salvador",
+    "LanguagesOfficialOrNationalLanguage": "Spanish",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "CR",
+    "country": "Costa Rica",
+    "LanguagesOfficialOrNationalLanguage": "Spanish",
+    "LanguagesMinorityLanguage": "Limonese Creole",
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "PA",
+    "country": "Panama",
+    "LanguagesOfficialOrNationalLanguage": "Spanish",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "UY",
+    "country": "Uruguay",
+    "LanguagesOfficialOrNationalLanguage": "Spanish",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "LS",
+    "country": "Lesotho",
+    "LanguagesOfficialOrNationalLanguage": "Sotho, English",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "SI",
+    "country": "Slovenia",
+    "LanguagesOfficialOrNationalLanguage": "Slovene",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "SK",
+    "country": "Slovakia",
+    "LanguagesOfficialOrNationalLanguage": "Slovak",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "LK",
+    "country": "Sri Lanka",
+    "LanguagesOfficialOrNationalLanguage": "Sinhala, Tamil",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "RS",
+    "country": "Serbia",
+    "LanguagesOfficialOrNationalLanguage": "Serbian",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "RU",
+    "country": "Russia",
+    "LanguagesOfficialOrNationalLanguage": "Russian",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "RO",
+    "country": "Romania",
+    "LanguagesOfficialOrNationalLanguage": "Romanian",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "MD",
+    "country": "Moldova",
+    "LanguagesOfficialOrNationalLanguage": "Romanian",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "TL",
+    "country": "Timor-Leste",
+    "LanguagesOfficialOrNationalLanguage": "Portuguese, Tetum",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "BR",
+    "country": "Brazil",
+    "LanguagesOfficialOrNationalLanguage": "Portuguese",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "AO",
+    "country": "Angola",
+    "LanguagesOfficialOrNationalLanguage": "Portuguese",
+    "LanguagesMinorityLanguage": "Kimbundu, Umbundu, Kikongo, Chokwe, Kwanyama, Ganguela",
+    "LanguagesOtherWidelySpokenLanguages": "Angolan"
+  },
+  {
+    "flagCode": "MZ",
+    "country": "Mozambique",
+    "LanguagesOfficialOrNationalLanguage": "Portuguese",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "PT",
+    "country": "Portugal",
+    "LanguagesOfficialOrNationalLanguage": "Portuguese",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "GW",
+    "country": "Guinea-Bissau",
+    "LanguagesOfficialOrNationalLanguage": "Portuguese",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "CV",
+    "country": "Cape Verde",
+    "LanguagesOfficialOrNationalLanguage": "Portuguese",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": "Cape Verdean Creole"
+  },
+  {
+    "flagCode": "ST",
+    "country": "Sao Tome and Principe",
+    "LanguagesOfficialOrNationalLanguage": "Portuguese",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "PL",
+    "country": "Poland",
+    "LanguagesOfficialOrNationalLanguage": "Polish",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "PE",
+    "country": "Peru",
+    "LanguagesOfficialOrNationalLanguage": "Peruvian Spanish, Quechua, Aymara, Asháninka",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "AF",
+    "country": "Afghanistan",
+    "LanguagesOfficialOrNationalLanguage": "Persian (Dari), Pashto",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "IR",
+    "country": "Iran",
+    "LanguagesOfficialOrNationalLanguage": "Persian",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": "Azerbaijani, Kurdish, Luri, Gilaki, Mazanderani, Balochi, Arabic, Qashqai, Tati, Turkmeni"
+  },
+  {
+    "flagCode": "NO",
+    "country": "Norway",
+    "LanguagesOfficialOrNationalLanguage": "Norwegian",
+    "LanguagesMinorityLanguage": "Kven, Scandoromani",
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "NP",
+    "country": "Nepal",
+    "LanguagesOfficialOrNationalLanguage": "Nepali",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "ME",
+    "country": "Montenegro",
+    "LanguagesOfficialOrNationalLanguage": "Montenegrin",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "MN",
+    "country": "Mongolia",
+    "LanguagesOfficialOrNationalLanguage": "Mongolian",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "CN",
+    "country": "China",
+    "LanguagesOfficialOrNationalLanguage": "Mandarin Chinese",
+    "LanguagesMinorityLanguage": "Mongolian, Uyghur, Tibetan, Zhuang, Kazakh, Korean",
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "TW",
+    "country": "Taiwan",
+    "LanguagesOfficialOrNationalLanguage": "Mandarin",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": "Taiwanese Mandarin, Taiwanese Hokkien, Taiwanese Hakka, Formosan"
+  },
+  {
+    "flagCode": "MT",
+    "country": "Malta",
+    "LanguagesOfficialOrNationalLanguage": "Maltese, English",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "BN",
+    "country": "Brunei",
+    "LanguagesOfficialOrNationalLanguage": "Malay, English",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "MY",
+    "country": "Malaysia",
+    "LanguagesOfficialOrNationalLanguage": "Malay",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": "Mandarin Chinese, Cantonese, Tamil"
+  },
+  {
+    "flagCode": "MK",
+    "country": "North Macedonia",
+    "LanguagesOfficialOrNationalLanguage": "Macedonian, Albanian",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "LT",
+    "country": "Lithuania",
+    "LanguagesOfficialOrNationalLanguage": "Lithuanian",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": "Russian"
+  },
+  {
+    "flagCode": "LV",
+    "country": "Latvia",
+    "LanguagesOfficialOrNationalLanguage": "Latvian",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": "Russian"
+  },
+  {
+    "flagCode": "LA",
+    "country": "Laos",
+    "LanguagesOfficialOrNationalLanguage": "Lao",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "KG",
+    "country": "Kyrgyzstan",
+    "LanguagesOfficialOrNationalLanguage": "Kyrgyz, Russian",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "KR",
+    "country": "South Korea",
+    "LanguagesOfficialOrNationalLanguage": "Korean",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "KP",
+    "country": "North Korea",
+    "LanguagesOfficialOrNationalLanguage": "Korean",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "KH",
+    "country": "Cambodia",
+    "LanguagesOfficialOrNationalLanguage": "Khmer",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "KZ",
+    "country": "Kazakhstan",
+    "LanguagesOfficialOrNationalLanguage": "Kazakh, Russian",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "JP",
+    "country": "Japan",
+    "LanguagesOfficialOrNationalLanguage": "Japanese",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "VA",
+    "country": "Vatican City",
+    "LanguagesOfficialOrNationalLanguage": "Italian, Latin",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": "Swiss German"
+  },
+  {
+    "flagCode": "IT",
+    "country": "Italy",
+    "LanguagesOfficialOrNationalLanguage": "Italian",
+    "LanguagesMinorityLanguage": "Ladin, Slovene",
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "SM",
+    "country": "San Marino",
+    "LanguagesOfficialOrNationalLanguage": "Italian",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "IE",
+    "country": "Ireland",
+    "LanguagesOfficialOrNationalLanguage": "Irish, English",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "ID",
+    "country": "Indonesia",
+    "LanguagesOfficialOrNationalLanguage": "Indonesian",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": "Malay, Javanese, Sundanese, Madurese, Minangkabau"
+  },
+  {
+    "flagCode": "IS",
+    "country": "Iceland",
+    "LanguagesOfficialOrNationalLanguage": "Icelandic",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "HU",
+    "country": "Hungary",
+    "LanguagesOfficialOrNationalLanguage": "Hungarian",
+    "LanguagesMinorityLanguage": "Croatian, German, Romanian, Serbian, Slovak, Slovene",
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "IN",
+    "country": "India",
+    "LanguagesOfficialOrNationalLanguage": "Hindi, English",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": "Bengali, Telugu, Marathi, Tamil, Punjabi, Gujarati, Bhojpuri, Kannada, Malayalam, Odiya, Maithili, Assamese, Bhili, Santali, Kashmiri, Gondi, Nepali, Sindhi, Dogri, Konkani, Kurukh, Khandeshi, Tulu, Meitei, Bodo, Khasi, Ho, Garo, Mundari, Tripuri"
+  },
+  {
+    "flagCode": "IL",
+    "country": "Israel",
+    "LanguagesOfficialOrNationalLanguage": "Hebrew",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": "English"
+  },
+  {
+    "flagCode": "CY",
+    "country": "Cyprus",
+    "LanguagesOfficialOrNationalLanguage": "Greek, Turkish",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": "Armeniani, Cypriot Arabic, English"
+  },
+  {
+    "flagCode": "GR",
+    "country": "Greece",
+    "LanguagesOfficialOrNationalLanguage": "Greek",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "DE",
+    "country": "Germany",
+    "LanguagesOfficialOrNationalLanguage": "German",
+    "LanguagesMinorityLanguage": "Danish, Lower Sorbian, North Frisian, Romani, Upper Sorbian",
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "AT",
+    "country": "Austria",
+    "LanguagesOfficialOrNationalLanguage": "German",
+    "LanguagesMinorityLanguage": "Slovene, Czech, Hungarian, Slovak, Romani, Serbian",
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "LI",
+    "country": "Liechtenstein",
+    "LanguagesOfficialOrNationalLanguage": "German",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "GE",
+    "country": "Georgia",
+    "LanguagesOfficialOrNationalLanguage": "Georgian",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "CF",
+    "country": "Central African Republic",
+    "LanguagesOfficialOrNationalLanguage": "French, Sango",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "GQ",
+    "country": "Equatorial Guinea",
+    "LanguagesOfficialOrNationalLanguage": "French, Portuguese, Spanish",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "MG",
+    "country": "Madagascar",
+    "LanguagesOfficialOrNationalLanguage": "French, Malagasy",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "BI",
+    "country": "Burundi",
+    "LanguagesOfficialOrNationalLanguage": "French, Kirundi, English",
+    "LanguagesMinorityLanguage": "Kirundi",
+    "LanguagesOtherWidelySpokenLanguages": "Swahili"
+  },
+  {
+    "flagCode": "HT",
+    "country": "Haiti",
+    "LanguagesOfficialOrNationalLanguage": "French, Haitian Creole",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "LU",
+    "country": "Luxembourg",
+    "LanguagesOfficialOrNationalLanguage": "French, German, Luxembourgish",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "CH",
+    "country": "Switzerland",
+    "LanguagesOfficialOrNationalLanguage": "French , German, Italian, Romansh",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "CD",
+    "country": "DR Congo",
+    "LanguagesOfficialOrNationalLanguage": "French",
+    "LanguagesMinorityLanguage": "Lingala, Kikongo",
+    "LanguagesOtherWidelySpokenLanguages": "Swahili, Tshiluba"
+  },
+  {
+    "flagCode": "FR",
+    "country": "France",
+    "LanguagesOfficialOrNationalLanguage": "French",
+    "LanguagesMinorityLanguage": "Corsican, Basque, Breton",
+    "LanguagesOtherWidelySpokenLanguages": "Occitan language"
+  },
+  {
+    "flagCode": "CI",
+    "country": "Ivory Coast",
+    "LanguagesOfficialOrNationalLanguage": "French",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "NE",
+    "country": "Niger",
+    "LanguagesOfficialOrNationalLanguage": "French",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": "Arabic, Hausa, Fulfulde, Gulmancema, Kanuri, Zarma, Tamazight"
+  },
+  {
+    "flagCode": "ML",
+    "country": "Mali",
+    "LanguagesOfficialOrNationalLanguage": "French",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "BF",
+    "country": "Burkina Faso",
+    "LanguagesOfficialOrNationalLanguage": "French",
+    "LanguagesMinorityLanguage": "Fula, Jula, More",
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "SN",
+    "country": "Senegal",
+    "LanguagesOfficialOrNationalLanguage": "French",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": "Jola-Fogny, Mandinka, Pulaar, Serer, Soninke, Wolof"
+  },
+  {
+    "flagCode": "GN",
+    "country": "Guinea",
+    "LanguagesOfficialOrNationalLanguage": "French",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": "Fula, Maninka, Susu"
+  },
+  {
+    "flagCode": "BJ",
+    "country": "Benin",
+    "LanguagesOfficialOrNationalLanguage": "French",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "TG",
+    "country": "Togo",
+    "LanguagesOfficialOrNationalLanguage": "French",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "CG",
+    "country": "Republic of the Congo",
+    "LanguagesOfficialOrNationalLanguage": "French",
+    "LanguagesMinorityLanguage": "Lingala, Munukutuba",
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "GA",
+    "country": "Gabon",
+    "LanguagesOfficialOrNationalLanguage": "French",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "MC",
+    "country": "Monaco",
+    "LanguagesOfficialOrNationalLanguage": "French",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": "Monégasque"
+  },
+  {
+    "flagCode": "FI",
+    "country": "Finland",
+    "LanguagesOfficialOrNationalLanguage": "Finnish, Swedish",
+    "LanguagesMinorityLanguage": "Sami",
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "PH",
+    "country": "Philippines",
+    "LanguagesOfficialOrNationalLanguage": "Filipino, English",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "EE",
+    "country": "Estonia",
+    "LanguagesOfficialOrNationalLanguage": "Estonian",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": "Russian"
+  },
+  {
+    "flagCode": "TO",
+    "country": "Tonga",
+    "LanguagesOfficialOrNationalLanguage": "English, Tongan",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "SZ",
+    "country": "Eswatini",
+    "LanguagesOfficialOrNationalLanguage": "English, Swazi",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "KE",
+    "country": "Kenya",
+    "LanguagesOfficialOrNationalLanguage": "English, Swahili",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "UG",
+    "country": "Uganda",
+    "LanguagesOfficialOrNationalLanguage": "English, Swahili",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "PW",
+    "country": "Palau",
+    "LanguagesOfficialOrNationalLanguage": "English, Palauan",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "NU",
+    "country": "Niue",
+    "LanguagesOfficialOrNationalLanguage": "English, Niuean",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "SG",
+    "country": "Singapore",
+    "LanguagesOfficialOrNationalLanguage": "English, Malay, Mandarin Chinese, Tamil",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "GB",
+    "country": "United Kingdom",
+    "LanguagesOfficialOrNationalLanguage": "English, Irish, Scottish, Gaelic, Welsh",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "PG",
+    "country": "Papua New Guinea",
+    "LanguagesOfficialOrNationalLanguage": "English, Hiri Motu, PNG Sign Language, Tok Pisin",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "SC",
+    "country": "Seychelles",
+    "LanguagesOfficialOrNationalLanguage": "English, French, Seychellois Creole",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "RW",
+    "country": "Rwanda",
+    "LanguagesOfficialOrNationalLanguage": "English, French, Kinyarwanda, Swahili",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "CA",
+    "country": "Canada",
+    "LanguagesOfficialOrNationalLanguage": "English, French",
+    "LanguagesMinorityLanguage": "Chipewyan, Cree, Gwich'in, Inuinnaqtun, Inuktitut, Inuvialuktun, North Slavey, South Slavey",
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "CM",
+    "country": "Cameroon",
+    "LanguagesOfficialOrNationalLanguage": "English, French",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "VU",
+    "country": "Vanuatu",
+    "LanguagesOfficialOrNationalLanguage": "English, French",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": "Bislama"
+  },
+  {
+    "flagCode": "FJ",
+    "country": "Fiji",
+    "LanguagesOfficialOrNationalLanguage": "English, Fijian, Fiji Hindi",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "CK",
+    "country": "Cook Islands",
+    "LanguagesOfficialOrNationalLanguage": "English, Cook Islands Maori",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "MW",
+    "country": "Malawi",
+    "LanguagesOfficialOrNationalLanguage": "English, Chichewa",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "US",
+    "country": "United States",
+    "LanguagesOfficialOrNationalLanguage": "English",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "NG",
+    "country": "Nigeria",
+    "LanguagesOfficialOrNationalLanguage": "English",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": "Hausa, Yoruba, Igbo, Tiv"
+  },
+  {
+    "flagCode": "TZ",
+    "country": "Tanzania",
+    "LanguagesOfficialOrNationalLanguage": "English",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": "Swahili"
+  },
+  {
+    "flagCode": "GH",
+    "country": "Ghana",
+    "LanguagesOfficialOrNationalLanguage": "English",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "AU",
+    "country": "Australia",
+    "LanguagesOfficialOrNationalLanguage": "English",
+    "LanguagesMinorityLanguage": "Nyulnyulan, Worrorran, Bunuban, Jarrakan, Mindi, Daly, Wagiman, Wardaman, Tiwi, Darwin, Iwaidjan, Giimbiyu, Arnhem, Gunwinyguan, Garawan, Tangkic, Pama-Nyungan",
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "ZM",
+    "country": "Zambia",
+    "LanguagesOfficialOrNationalLanguage": "English",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "SS",
+    "country": "South Sudan",
+    "LanguagesOfficialOrNationalLanguage": "English",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": "Arabic, Bari, Dinka, Luo, Murle, Nuer, Zande"
+  },
+  {
+    "flagCode": "SL",
+    "country": "Sierra Leone",
+    "LanguagesOfficialOrNationalLanguage": "English",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": "Krio"
+  },
+  {
+    "flagCode": "LR",
+    "country": "Liberia",
+    "LanguagesOfficialOrNationalLanguage": "English",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "NZ",
+    "country": "New Zealand",
+    "LanguagesOfficialOrNationalLanguage": "English",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": "Maori, New Zealand Sign Language"
+  },
+  {
+    "flagCode": "NA",
+    "country": "Namibia",
+    "LanguagesOfficialOrNationalLanguage": "English",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": "Afrikaans"
+  },
+  {
+    "flagCode": "JM",
+    "country": "Jamaica",
+    "LanguagesOfficialOrNationalLanguage": "English",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": "Jamaican Patois"
+  },
+  {
+    "flagCode": "GM",
+    "country": "Gambia",
+    "LanguagesOfficialOrNationalLanguage": "English",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "BW",
+    "country": "Botswana",
+    "LanguagesOfficialOrNationalLanguage": "English",
+    "LanguagesMinorityLanguage": "Bantu languages",
+    "LanguagesOtherWidelySpokenLanguages": "Tswana"
+  },
+  {
+    "flagCode": "TT",
+    "country": "Trinidad and Tobago",
+    "LanguagesOfficialOrNationalLanguage": "English",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "MU",
+    "country": "Mauritius",
+    "LanguagesOfficialOrNationalLanguage": "English",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": "Mauritian Creole"
+  },
+  {
+    "flagCode": "SB",
+    "country": "Solomon Islands",
+    "LanguagesOfficialOrNationalLanguage": "English",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "GY",
+    "country": "Guyana",
+    "LanguagesOfficialOrNationalLanguage": "English",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": "Guyanese Creole"
+  },
+  {
+    "flagCode": "BZ",
+    "country": "Belize",
+    "LanguagesOfficialOrNationalLanguage": "English",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": "Kriol"
+  },
+  {
+    "flagCode": "BS",
+    "country": "Bahamas",
+    "LanguagesOfficialOrNationalLanguage": "English",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "BB",
+    "country": "Barbados",
+    "LanguagesOfficialOrNationalLanguage": "English",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "WS",
+    "country": "Samoa",
+    "LanguagesOfficialOrNationalLanguage": "English",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": "Samoan"
+  },
+  {
+    "flagCode": "LC",
+    "country": "Saint Lucia",
+    "LanguagesOfficialOrNationalLanguage": "English",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "KI",
+    "country": "Kiribati",
+    "LanguagesOfficialOrNationalLanguage": "English",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": "Kiribati"
+  },
+  {
+    "flagCode": "GD",
+    "country": "Grenada",
+    "LanguagesOfficialOrNationalLanguage": "English",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "FM",
+    "country": "Micronesia",
+    "LanguagesOfficialOrNationalLanguage": "English",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "VC",
+    "country": "Saint Vincent and the Grenadines",
+    "LanguagesOfficialOrNationalLanguage": "English",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "AG",
+    "country": "Antigua and Barbuda",
+    "LanguagesOfficialOrNationalLanguage": "English",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": "Antiguan and Barbudan Creole"
+  },
+  {
+    "flagCode": "DM",
+    "country": "Dominica",
+    "LanguagesOfficialOrNationalLanguage": "English",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "KN",
+    "country": "Saint Kitts and Nevis",
+    "LanguagesOfficialOrNationalLanguage": "English",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "MH",
+    "country": "Marshall Islands",
+    "LanguagesOfficialOrNationalLanguage": "English",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": "Marshallese"
+  },
+  {
+    "flagCode": "BT",
+    "country": "Bhutan",
+    "LanguagesOfficialOrNationalLanguage": "Dzongkha",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "NL",
+    "country": "Netherlands",
+    "LanguagesOfficialOrNationalLanguage": "Dutch, Frisian",
+    "LanguagesMinorityLanguage": "Dutch Low Saxon, Dutch Sign Language, Limburgish, Sinte Romani, Yiddish",
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "BE",
+    "country": "Belgium",
+    "LanguagesOfficialOrNationalLanguage": "Dutch, French, German",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "SR",
+    "country": "Suriname",
+    "LanguagesOfficialOrNationalLanguage": "Dutch",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": "Sranan Tongo"
+  },
+  {
+    "flagCode": "MV",
+    "country": "Maldives",
+    "LanguagesOfficialOrNationalLanguage": "Dhivehi",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "DK",
+    "country": "Denmark",
+    "LanguagesOfficialOrNationalLanguage": "Danish",
+    "LanguagesMinorityLanguage": "German",
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "CZ",
+    "country": "Czechia",
+    "LanguagesOfficialOrNationalLanguage": "Czech, Slovak",
+    "LanguagesMinorityLanguage": "Belarusian, Bulgarian, Croatian, German, Greek, Hungarian, Polish, Romani, Russian, Rusyn, Serbian, Ukrainian, Vietnamese",
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "HR",
+    "country": "Croatia",
+    "LanguagesOfficialOrNationalLanguage": "Croatian",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": "Italian, Romani, Slovene"
+  },
+  {
+    "flagCode": "CL",
+    "country": "Chile",
+    "LanguagesOfficialOrNationalLanguage": "Chilean Spanish",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "ZW",
+    "country": "Zimbabwe",
+    "LanguagesOfficialOrNationalLanguage": "Chewa, Chibarwe, English, Kalanga, Khoisan, Nambya, Ndau, Ndebele, Shangani, Shona, Sotho, Tonga, Tswana, Venda, Xhosa",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "AD",
+    "country": "Andorra",
+    "LanguagesOfficialOrNationalLanguage": "Catalan",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "MM",
+    "country": "Myanmar",
+    "LanguagesOfficialOrNationalLanguage": "Burmese",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": "English"
+  },
+  {
+    "flagCode": "BG",
+    "country": "Bulgaria",
+    "LanguagesOfficialOrNationalLanguage": "Bulgarian",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "BD",
+    "country": "Bangladesh",
+    "LanguagesOfficialOrNationalLanguage": "Bengali",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "BY",
+    "country": "Belarus",
+    "LanguagesOfficialOrNationalLanguage": "Belarusian, Russian",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "AZ",
+    "country": "Azerbaijan",
+    "LanguagesOfficialOrNationalLanguage": "Azerbaijani",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "AM",
+    "country": "Armenia",
+    "LanguagesOfficialOrNationalLanguage": "Armenian",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "DZ",
+    "country": "Algeria",
+    "LanguagesOfficialOrNationalLanguage": "Arabic, Tamazight",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": "French"
+  },
+  {
+    "flagCode": "MA",
+    "country": "Morocco",
+    "LanguagesOfficialOrNationalLanguage": "Arabic, Tamazight",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": "Darija"
+  },
+  {
+    "flagCode": "IQ",
+    "country": "Iraq",
+    "LanguagesOfficialOrNationalLanguage": "Arabic, Kurdish",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "TD",
+    "country": "Chad",
+    "LanguagesOfficialOrNationalLanguage": "Arabic, French",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "DJ",
+    "country": "Djibouti",
+    "LanguagesOfficialOrNationalLanguage": "Arabic, French",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "SD",
+    "country": "Sudan",
+    "LanguagesOfficialOrNationalLanguage": "Arabic, English",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "KM",
+    "country": "Comoros",
+    "LanguagesOfficialOrNationalLanguage": "Arabic, Comorian, French",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "EG",
+    "country": "Egypt",
+    "LanguagesOfficialOrNationalLanguage": "Arabic",
+    "LanguagesMinorityLanguage": "Coptic",
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "YE",
+    "country": "Yemen",
+    "LanguagesOfficialOrNationalLanguage": "Arabic",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "SA",
+    "country": "Saudi Arabia",
+    "LanguagesOfficialOrNationalLanguage": "Arabic",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "SY",
+    "country": "Syria",
+    "LanguagesOfficialOrNationalLanguage": "Arabic",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "SO",
+    "country": "Somalia",
+    "LanguagesOfficialOrNationalLanguage": "Arabic",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": "Somali"
+  },
+  {
+    "flagCode": "TN",
+    "country": "Tunisia",
+    "LanguagesOfficialOrNationalLanguage": "Arabic",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": "Tunisian"
+  },
+  {
+    "flagCode": "JO",
+    "country": "Jordan",
+    "LanguagesOfficialOrNationalLanguage": "Arabic",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "AE",
+    "country": "United Arab Emirates",
+    "LanguagesOfficialOrNationalLanguage": "Arabic",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": "English"
+  },
+  {
+    "flagCode": "LY",
+    "country": "Libya",
+    "LanguagesOfficialOrNationalLanguage": "Arabic",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "LB",
+    "country": "Lebanon",
+    "LanguagesOfficialOrNationalLanguage": "Arabic",
+    "LanguagesMinorityLanguage": "Armenian",
+    "LanguagesOtherWidelySpokenLanguages": "English, French"
+  },
+  {
+    "flagCode": "PS",
+    "country": "Palestine",
+    "LanguagesOfficialOrNationalLanguage": "Arabic",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": "English, Hebrew"
+  },
+  {
+    "flagCode": "OM",
+    "country": "Oman",
+    "LanguagesOfficialOrNationalLanguage": "Arabic",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "MR",
+    "country": "Mauritania",
+    "LanguagesOfficialOrNationalLanguage": "Arabic",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": "Fula, Soninke, Wolof, French"
+  },
+  {
+    "flagCode": "KW",
+    "country": "Kuwait",
+    "LanguagesOfficialOrNationalLanguage": "Arabic",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "QA",
+    "country": "Qatar",
+    "LanguagesOfficialOrNationalLanguage": "Arabic",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "BH",
+    "country": "Bahrain",
+    "LanguagesOfficialOrNationalLanguage": "Arabic",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "AL",
+    "country": "Albania",
+    "LanguagesOfficialOrNationalLanguage": "Albanian",
+    "LanguagesMinorityLanguage": "Greek, Macedonian, Aromanian",
+    "LanguagesOtherWidelySpokenLanguages": "Italian"
+  },
+  {
+    "flagCode": "ZA",
+    "country": "South Africa",
+    "LanguagesOfficialOrNationalLanguage": "Afrikaans, English, Southern Ndebele, Sotho, Northern Sotho, Swazi, Tsonga, Tswana, Venda, Xhosa, Zulu",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "ET",
+    "country": "Ethiopia",
+    "LanguagesOfficialOrNationalLanguage": "Afar, Amharic, Oromo, Somali, Tigrinya",
+    "LanguagesMinorityLanguage": "Benshangul, Gumuz, Harari, Kunama, Sidamo",
+    "LanguagesOtherWidelySpokenLanguages": null
+  },
+  {
+    "flagCode": "BA",
+    "country": "Bosnia and Herzegovina",
+    "LanguagesOfficialOrNationalLanguage": "(Bosnian, Croatian and Serbian",
+    "LanguagesMinorityLanguage": null,
+    "LanguagesOtherWidelySpokenLanguages": null
+  }
+]
