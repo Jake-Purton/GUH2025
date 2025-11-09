@@ -3,6 +3,7 @@
 import { useState, useMemo, Suspense } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import HeroGlobe from "@/components/HeroGlobe";
 
 // simple className join helper
 function cn(...classes: Array<string | false | null | undefined>) {
@@ -179,44 +180,6 @@ function CountrySelect({ label, value, onChange }: { label: string; value: strin
 }
 
 
-function AIMergeDemo() {
-  const [prompt, setPrompt] = useState("Blend cuisine, holidays, and architecture");
-  const [merged, setMerged] = useState<string | null>(null);
-
-
-  return (
-    <Card className="border-white/10 bg-white/5 backdrop-blur">
-      <CardHeader className="flex flex-row items-center justify-between">
-        <CardTitle className="flex items-center gap-2 text-base font-semibold">
-          <Sparkles className="h-4 w-4" /> AI Merge (What-if)
-        </CardTitle>
-        <Badge variant="secondary" className="bg-white/10 text-white">
-          Prototype
-        </Badge>
-      </CardHeader>
-      <CardContent className="space-y-3">
-        <div className="grid gap-3 sm:grid-cols-[1fr_auto]">
-          <Input
-            value={prompt}
-            onChange={(e) => setPrompt(e.target.value)}
-            placeholder="What if UK and Japan merged..."
-            className="bg-white/5 text-sm"
-          />
-          <Button onClick={handleMerge} className="gap-2">
-            <Sparkles className="h-4 w-4" />
-            Generate
-          </Button>
-        </div>
-        {merged && (
-          <div className="rounded-xl border border-white/10 bg-black/30 p-4 text-sm leading-relaxed text-white/90">
-            {merged}
-          </div>
-        )}
-      </CardContent>
-    </Card>
-  );
-}
-
 export default function LandingHero() {
   return (
     <div className="min-h-screen bg-slate-950 text-white">
@@ -294,9 +257,9 @@ export default function LandingHero() {
             </div>
           </div>
 
-          <Suspense>
-            <GlobePlaceholder />
-          </Suspense>
+<Suspense>
+  <HeroGlobe />
+</Suspense>
         </div>
       </section>
 
