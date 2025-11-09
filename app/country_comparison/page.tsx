@@ -39,6 +39,24 @@ export default function WorldComparePage({ countryA = "United States", countryB 
 
     const renderCountryCard = (name: string) => {
         const data = countries[name];
+        if (!data) return null;
+
+        // Prepare stats
+        const statsLeft = [
+            { label: "Population", value: data.population?.toLocaleString() ?? "N/A" },
+            { label: "Land Area (km²)", value: data.landArea?.toLocaleString() ?? "N/A" },
+            { label: "GDP per Capita (USD)", value: data.gdpPerCapita?.toLocaleString() ?? "N/A" },
+            { label: "Avg Years of Education", value: data.avgEducationYears ?? "N/A" },
+            { label: "Homicide Rate (/100,000)", value: data.homicideRate ?? "N/A" },
+        ];
+
+        const statsRight = [
+            { label: "Energy Use per Capita (KWh)", value: data.energyUsePerCapita ?? "N/A" },
+            { label: "Happiness (0-10)", value: data.happiness ?? "N/A" },
+            { label: "Military Expenditure (% GDP)", value: data.militaryExpenditure ?? "N/A" },
+            { label: "Electricity Access (%)", value: data.electricityAccess ?? "N/A" },
+        ];
+
         return (
             <div style={{
                 flex: 1,
@@ -60,19 +78,58 @@ export default function WorldComparePage({ countryA = "United States", countryB 
                 </div>
 
                 {renderInfoBox("Stats", (
-                    <>
-                        <div>Population: {data?.population?.toLocaleString() ?? "N/A"}</div>
-                        <div>Land Area: {data?.landArea?.toLocaleString() ?? "N/A"} km²</div>
-                        <div>GDP per Capita: {data?.gdpPerCapita?.toLocaleString() ?? "N/A"} USD</div>
-                    </>
+                    <div style={{ display: "flex", gap: 16 }}>
+                        <div style={{ flex: 1, display: "flex", flexDirection: "column", gap: 4 }}>
+                            {statsLeft.map((s, i) => (
+                                <div key={i}><strong>{s.label}:</strong> {s.value}</div>
+                            ))}
+                        </div>
+                        <div style={{ flex: 1, display: "flex", flexDirection: "column", gap: 4 }}>
+                            {statsRight.map((s, i) => (
+                                <div key={i}><strong>{s.label}:</strong> {s.value}</div>
+                            ))}
+                        </div>
+                    </div>
                 ))}
 
-                {renderInfoBox("Music", "Popular genres, artists, instruments...")}
+                {renderInfoBox("Top Songs", (
+                    <ol style={{ paddingLeft: 20, margin: 0 }}>
+                        {data.topSongs?.songs
+                            ?.slice(0, 5)
+                            .map((song, i) => {
+                                const [artist, ...titleParts] = song.rank.split(" - ");
+                                const title = titleParts.join(" - ");
+                                const isTop1 = i === 0;
+
+                                return (
+                                    <li
+                                        key={i}
+                                        style={{
+                                            marginBottom: 8,
+                                            fontSize: isTop1 ? 16 : 12,
+                                            fontWeight: isTop1 ? "bold" : "bold",
+                                            color: isTop1 ? "#fffa72" : "#eaeefb",
+                                        }}
+                                    >
+                                        <span style={{ marginRight: 8 }}>{i + 1}.</span>
+                                        <span style={{ fontStyle: "italic" }}>{title}</span>
+                                        {artist ? ` by ${artist}` : ""}
+                                    </li>
+                                );
+                            }) || <li>N/A</li>}
+                    </ol>
+                ))}
+
+
+
+
                 {renderInfoBox("Weather", "Average temp, climate type...")}
                 {renderInfoBox("Culture", "Languages, traditions, festivals...")}
             </div>
         );
     };
+
+
 
     return (
         <>
@@ -91,7 +148,7 @@ export default function WorldComparePage({ countryA = "United States", countryB 
 
                 {/* Center Column with Buttons */}
                 <div style={{
-                    flex: 1,
+                    flex: 0.5,
                     display: "flex",
                     flexDirection: "column",
                     justifyContent: "center",
